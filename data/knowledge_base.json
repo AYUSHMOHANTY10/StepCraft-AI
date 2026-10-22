@@ -1,0 +1,7 @@
+[
+  {"id":"shipping-01","title":"Shipping and delivery","content":"Standard shipping usually takes 3 to 7 business days after dispatch. Tracking estimates can change due to carrier delays. Use the order status tool for a specific demo order."},
+  {"id":"returns-01","title":"Returns and refunds","content":"For this demo, refund eligibility can be checked only after an order is marked delivered. Eligible requests are submitted for review within 30 days. The demo agent never issues a real refund."},
+  {"id":"cancel-01","title":"Order cancellation","content":"Orders that are still processing may be eligible for cancellation review. Shipped or delivered orders cannot be cancelled through this demo. Contact support for a real order."},
+  {"id":"privacy-01","title":"Privacy and account security","content":"Never share passwords, one-time passcodes, or full payment card details in support chat. This demo uses synthetic order data and does not connect to customer accounts."},
+  {"id":"warranty-01","title":"Product warranty","content":"Warranty coverage depends on the product and purchase terms. This demo knowledge base does not contain product-specific warranty durations, so support should confirm the product documentation."}
+]

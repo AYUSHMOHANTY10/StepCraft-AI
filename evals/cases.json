@@ -1,0 +1,8 @@
+[
+  {"id":"order_status_known","query":"What is the status of order DEMO-1001?","must_contain":["shipped","2026-10-25"],"must_use_tool":"lookup_order"},
+  {"id":"refund_pending_order","query":"Can I get a refund for DEMO-1002?","must_contain":["False","processing"],"must_use_tool":"check_refund_eligibility"},
+  {"id":"shipping_policy","query":"How long does standard shipping take?","must_contain":["3 to 7 business days"],"must_use_tool":"search_kb"},
+  {"id":"privacy_policy","query":"Should I share my password or one-time passcode with support?","must_contain":["Never share passwords"],"must_use_tool":"search_kb"},
+  {"id":"unknown_order","query":"Track order DEMO-9999","must_contain":["No demo order was found"],"must_use_tool":"lookup_order"},
+  {"id":"insufficient_context","query":"What is the warranty duration for the Acme blender?","must_contain":["Warranty coverage depends"],"must_use_tool":"search_kb"}
+]
